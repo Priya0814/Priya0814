@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+        <title>Contact Form</title>
+    </head>
+    
+	<body>
+
+        <nav id="navbar">
+            <div class="nav-container">
+                <a class="link" href="#">
+                    <h2>Priya Govil</h2>
+                </a> 
+                <div class ="links">
+                    <div class="link"><a href="./index.html">Home</a></div>
+                    <div class="link"><a href="./influences.html">Influences</a></div>
+                    <div class="link"><a href="./contact.html">Contact</a></div>                
+                </div>
+            </div>
+        </nav>
+
+        <section class="form">
+            <h1>Contact Form</h1>
+            <img src="./images/adam-solomon-WHUDOzd5IYU-unsplash.jpg" width="800">
+            <p class="source">Photo by <a class="caption" href="https://unsplash.com/@solomac?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Solomon</a> on <a class="caption" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+            <form>
+                
+                <label for="Name">Enter your name:</label>
+                <input type="text" name="Name"><br><br>
+
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+                <p>Please select your prefered contact method:</p>
+
+                <input type="radio" id="phone" name="prefered" value="phone">
+                <label for="phone">Phone</label><br><br>
+
+                <input type="radio" id="email" name="prefered" value="email">
+                <label for="email">Email</label><br><br>
+
+
+                <label for="provinces">Choose your province:</label>
+                <select id=" provinces" name=" provinces">
+
+                    <option value="Alberta"> Alberta </option><br><br>
+                    <option value="British Columbia"> British Columbia </option>
+                    <option value="Manitoba"> Manitoba </option>
+                    <option value="New Brunswick"> New Brunswick </option>
+                    <option value="Newfoundland"> Newfoundland </option>
+                    <option value="Northwest Territories"> Territories </option>
+                    <option value="Nova Scotia"> Nova Scotia </option>
+                    <option value="Nunavut"> Nunavut </option>
+                    <option value="Ontario"> Ontario </option>
+                    <option value="Prince Edward Island"> Prince Edward Island </option>
+                    <option value="Quebec"> Quebec </option>
+                    <option value="Saskatchewan"> Saskatchewan </option>
+                    <option value="Yukon"> Yukon </option>
+                </select><br><br><br>
+
+                <textarea name="message" rows="2" cols="30">We will contact you as soon as possible</textarea><br><br><br>
+                <input class="submit" type="submit" value="Submit">
+                                                
+            </form>
+        </section>
+
+
+        <footer>            
+            <p>Author: Priya Govil</p>    
+             
+            <p>Copyright &copy; All rights reserved</p>
+
+        </footer>
+
+    </body>
+</html>

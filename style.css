@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+#navbar {
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    background-color: lightskyblue;
+    display: flex; 
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+} 
+.nav-container {
+    width: 95%;  
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+main{
+    margin: 0 40px;
+}
+img{
+    display: block;
+    margin: 20px auto;
+}
+.caption{
+    color: mediumslateblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
+.source{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+p{
+    text-align: center;
+    padding: 10px 0;
+    line-height: 1.5;
+    font-size: large;
+}
+
+#hero{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/anas-alshanti-feXpdV001o4-unsplash.jpg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px 0;
+    position: relative;
+}
+#HeroDiv{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    line-height: 1;
+}
+.contact{
+    background-color: lightskyblue;
+    color: #333;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    border: solid 10px lightskyblue;
+}
+.hero-source{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.description{
+    color: mediumslateblue;
+    text-decoration: none;
+    display: inline;
+    padding: 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: 760px 760px 730px 750px;
+}
+
+h1{
+    padding: 10px 0;
+}
+.form{
+    padding-top: 10px;
+    text-align: center;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+form{
+    padding-top: 10px;
+}
