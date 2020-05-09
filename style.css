@@ -112,6 +112,7 @@ footer{
 
 h1{
     padding: 10px 0;
+    text-align: center;
 }
 .form{
     padding-top: 10px;
@@ -124,4 +125,10 @@ h1{
 }
 form{
     padding-top: 10px;
+}
+
+.about{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
