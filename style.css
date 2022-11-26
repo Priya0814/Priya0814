@@ -32,33 +32,13 @@ a{
     display: inline-block;
     padding: 20px;
 }
-main{
-    margin: 0 40px;
-}
-img{
-    display: block;
-    margin: 20px auto;
-}
-.caption{
-    color: mediumslateblue;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0;
-}
-.source{
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 0;
-}
-p{
-    text-align: center;
+p{   
     padding: 10px 0;
     line-height: 1.5;
     font-size: large;
 }
-
 #hero{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/anas-alshanti-feXpdV001o4-unsplash.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg");
     background-position: center;
     height: 500px;
     background-repeat: no-repeat;
@@ -77,6 +57,21 @@ p{
     right: 0;
     line-height: 1;
 }
+h1{
+    padding: 10px 0;
+    text-align: center;
+}
+.hero-source{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.caption{
+    color: mediumslateblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
 .contact{
     background-color: lightskyblue;
     color: #333;
@@ -85,50 +80,25 @@ p{
     padding: 10px;
     border: solid 10px lightskyblue;
 }
-.hero-source{
+.title {
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
+    font-size: 2em;
+    font-weight: 400;
 }
-
+.description {
+    max-width: 800px;
+    border: 6px solid #d8aeff;
+    border-radius: 12px;
+    padding: 15px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 360;
+    line-height: 1.5em;
+    margin: 25px auto;
+}
 footer{
     background-color: lightskyblue;
     text-align: center;
-    padding-top: 10px;
     width: 100%;
-}
-
-.description{
-    color: mediumslateblue;
-    text-decoration: none;
-    display: inline;
-    padding: 0;
-}
-
-.gallery{
-    display: grid;
-    grid-template-rows: 760px 760px 730px 750px;
-}
-
-h1{
-    padding: 10px 0;
-    text-align: center;
-}
-.form{
-    padding-top: 10px;
-    text-align: center;
-}
-.submit{
-    width: 100px;
-    height: 40px;
-    margin-bottom: 30px;
-}
-form{
-    padding-top: 10px;
-}
-
-.about{
-    width: 1000px;
-    margin: 0 auto;
-    text-align: center;
 }
